@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+}
+.h1{
+    position: absolute;
+    font-size: 22px;
+    font-weight: 600;
+    width: 3px;
+    height: 28px;
+    text-align: center;
+    left :50px;
+    right: 50px;
+}
+
+
+.wrapper{
+    position: relative;
+    max-width: 430px;
+    width: 100%;
+    background: #fff;
+    padding: 34px;
+    border-radius: 7px;
+    box-shadow: 0 5px 10px rgba(218, 204, 204, 0.2)1;
+}
+.wrapper.h2{
+    position: relative;
+    font-size: 22px;
+    font-weight: 600;
+    color:#000;
+}
+.wrapper h2::before{
+    content: '';
+    position: absolute;
+    top:0;
+    bottom: 0;
+    height: 3px;
+    width:28px;
+    background: #4070f4;
+    border-bottom: 10px solid #000;
+}   
+.wrapper form{
+    margin-top: 25px;
+
+}        
+ .wrapper form .input-box{
+     height: 52px;
+     margin:18px 0;
+ }
+ form .input-box input{
+     height:100%;
+     width:100%;
+     padding:0 15px;
+     font-size: 17px;
+     outline: none;
+     border: 1.5px solid #fff;
+     border-bottom-width: 2.5px ;
+     border-radius: 6px;
+     transition: all 0.3s ease;
+
+ }
+ .input-box input:focus,
+ .input-box input:valid{
+     border-color: #4070f4;
+
+ }       
+.box button{
+    color: #fff;
+    letter-spacing: 1px;
+    border:none;
+    background: #4070f4;
+    cursor: pointer;
+}
+.box button :hover{
+    background: #0e4bf1;
+
+}
+
+
+
